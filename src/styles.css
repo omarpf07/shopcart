@@ -1,1 +1,58 @@
-/* You can add global styles to this file, and also import other style files */
+@import 'assets/styles/bootstrap.min.css';
+@import 'assets/styles/animate.css';
+@import 'assets/fonts/fonts.css';
+
+
+h1,h2,h3,h4,h5,h6{
+     font-family: robotoTitle !important;
+}
+
+body{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding-bottom: 6rem;
+}
+
+.lead{
+    font-family: robotoMedium !important;
+}
+
+p,a,span,label{
+    font-family: robotoNormal !important;
+}
+
+.my_link{
+    cursor: pointer;
+}
+
+
+.primary{
+    background-color: #2B2C36 !important;
+}
+
+.secondary{
+    background-color: #F8F9F9 !important;
+}
+.text-white{
+    color: #F8F9F9 !important;
+}
+
+.text-dark{
+    color: #2B2C36 !important;
+}
+
+.btn-primary{
+    background-color: #7779A6;
+    border-color: #7779A6;
+}
+
+.btn-primary:hover{
+    background-color: #2f3039;
+    border-color: #2f3039;   
+}
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle{
+    background-color: #2f3039;
+    border-color: #2f3039;
+}
