@@ -28,7 +28,7 @@ p,a,span,label{
 
 
 .primary{
-    background-color: #2B2C36 !important;
+    background-color: #3a0b0b !important;
 }
 
 .secondary{
@@ -43,16 +43,20 @@ p,a,span,label{
 }
 
 .btn-primary{
-    background-color: #7779A6;
-    border-color: #7779A6;
+    background-color: #eaa805;
+    border-color: #eaa805;
 }
 
 .btn-primary:hover{
-    background-color: #2f3039;
-    border-color: #2f3039;   
+    background-color: #eaa805;
+    border-color: #eaa805;   
 }
 
 .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle{
     background-color: #2f3039;
     border-color: #2f3039;
+}
+
+.dropdown-item:active{
+    background-color: #eaa805;
 }
